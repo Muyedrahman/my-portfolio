@@ -6,10 +6,10 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function SmoothScroll({ children }) {
   useEffect(() => {
-    // GSAP এর সাথে ScrollTrigger রেজিস্টার করা
+    // GSAP   ScrollTrigger  
     gsap.registerPlugin(ScrollTrigger);
 
-    // Lenis ইনিশিয়ালাইজ করা
+    // Lenis  
     const lenis = new Lenis({
       duration: 1.2,
       easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
@@ -18,7 +18,7 @@ export default function SmoothScroll({ children }) {
       smoothWheel: true,
     });
 
-    // Lenis স্ক্রল ইভেন্টের সাথে GSAP ScrollTrigger সিঙ্ক করা
+    // Lenis  
     lenis.on("scroll", ScrollTrigger.update);
 
     gsap.ticker.add((time) => {

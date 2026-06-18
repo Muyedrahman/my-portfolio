@@ -65,10 +65,10 @@
 // }
 
 import Hero from "@/Components/Hero";
-import About from "@/components/About";
+import About from "@/Components/About";
 import Skills from "@/Components/Skills";
 import Education from "@/Components/Education";
-import Projects from "@/components/Projects";
+import Projects from "@/Components/Projects";
 import Contact from "@/Components/Contact";
  
 

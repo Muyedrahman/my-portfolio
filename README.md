@@ -2,7 +2,7 @@
 
 Live Link:-
 
-GitHub Link:-
+GitHub Link:-  https://github.com/Muyedrahman/my-portfolio
 
 
 

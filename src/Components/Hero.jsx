@@ -50,10 +50,8 @@ export default function Hero() {
       id="home"
       className="min-h-screen flex items-center justify-center bg-slate-950 pt-32 pb-20 overflow-hidden relative"
     >
-      
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] bg-[size:4.5rem_4.5rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)] opacity-25 pointer-events-none" />
 
-    
       <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[700px] h-[700px] bg-gradient-to-tr from-emerald-500/5 to-cyan-500/5 blur-[140px] rounded-full pointer-events-none" />
 
       <div className="max-w-4xl mx-auto px-6 relative z-10 w-full">
@@ -109,18 +107,16 @@ export default function Hero() {
             {/* Organic Glass Noise Texture */}
             <div className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22 opacity=%220.015%22/%3E%3C/svg%3E')] opacity-30 pointer-events-none mix-blend-overlay" />
 
-    
             <motion.h1
               variants={itemVariants}
               className="text-4xl sm:text-6xl font-black text-white mb-4 tracking-tight select-none relative z-10"
             >
-              Hi, I'm 
+              Hi, I'm
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400">
                 Muyedur Rahman
               </span>
             </motion.h1>
 
-           
             <motion.div variants={itemVariants} className="mb-6 relative z-10">
               <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full text-xs font-semibold tracking-wider text-cyan-400 bg-cyan-500/10 border border-cyan-500/20 uppercase backdrop-blur-md shadow-sm">
                 <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse" />
@@ -128,7 +124,6 @@ export default function Hero() {
               </div>
             </motion.div>
 
-             
             <motion.p
               variants={itemVariants}
               className="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto mb-10 leading-relaxed font-medium hover:text-slate-200 transition-colors duration-300 relative z-10"
@@ -139,7 +134,6 @@ export default function Hero() {
               solve real-world problems.
             </motion.p>
 
-            
             <motion.div
               variants={itemVariants}
               className="flex justify-center mb-12 relative z-10"
@@ -158,7 +152,6 @@ export default function Hero() {
               </motion.a>
             </motion.div>
 
-        
             <motion.div
               variants={itemVariants}
               className="flex justify-center gap-4 text-slate-400 border-t border-white/[0.05] pt-8 relative z-10"
@@ -184,7 +177,7 @@ export default function Hero() {
 
               {/* LinkedIn */}
               <motion.a
-                href="https://www.linkedin.com/in/muyedur-rahman-315a74344?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                href="https://www.linkedin.com/in/muyedur-rahman-dev"
                 target="_blank"
                 rel="noopener noreferrer"
                 variants={hoverEffects}
